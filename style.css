@@ -1,0 +1,198 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: CINO wordpress them
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* font pull in start */
+@font-face{
+font-family: MuseoSansRounded;
+src: url('font/MuseoSansRounded-100.otf');
+}
+/* font pull in end */
+
+/* header and footer start */
+header,
+footer{
+	width: 100%;
+	padding: 15px 0;
+}
+header .slogan{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+}
+header .logo{
+	float: right;
+	width: 107px;
+	height: 60px;
+	background: url(images/logo.png) no-repeat center;
+}
+footer address{
+	float: left;
+}
+footer .footer_logo{
+	float: right;
+	width: 157px;
+	height: 120px;
+	background: url(images/footerlogo.png) no-repeat center;
+}
+.copy{
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+}
+.copy a,
+.copy a:link,
+.copy a:visited{
+	color: #00A4E3;
+}
+.copy a:hover{
+	text-decoration: underline;
+}
+/* header and footer end */
+
+/* navigation setart */
+.nav_wrapper{
+	width: 100%;
+	background-color: #00A4E3;
+	text-align: center;
+	height: 50px;
+}
+nav{
+	width: 862px;
+	margin: 0 auto;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding: 15px 20px;
+}
+nav ul li a{
+	text-transform: uppercase;
+}
+nav ul li a:hover,
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited{
+  color: #000;
+}
+/* navigation end*/
+
+/* home wrapper start */
+.home_wrapper{
+	width: 100%;
+	height: 1166px;
+	background-color: #00A4E3;
+	background-image: url(images/home-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+.home_wrapper p{
+	width: 700px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+/* home wrapper end*/
+
+/* manufactured content start */
+.manufactured-content{
+	height: 550px;
+	background: url(images/nz.png) no-repeat right;
+}
+/* manufactured content end */
+
+/* factory and drinking content start */
+.factory_content,
+.drinking_conetent{
+	text-align: center;
+}
+/* factory and drinking content end */
+
+/* typical content start */
+.typical_content{
+	float: left;
+	width: 440px;
+}
+.typical_content h2{
+	padding-top: 0;
+	margin-top: 0;
+	width: 258px;
+}
+.typical_img{
+	float: right;
+	width: 526px;
+}
+/* typical content end */
+
+/* drinking img start*/
+.gallery-item{
+	float: left;
+	margin: 0;
+}
+.gallery-item dd{
+	margin: 10px auto;
+	padding: 2px 0;
+	color: #00A4E3;
+}
+.drinking_method{
+	width: 100%;
+	height: 619px;
+	background-color: #CDEDFA;
+	background-image: url(images/drinking-method.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* drinking img end */
+
+/* contact conetent start */
+.contact_conetent{
+	float: left;
+	width: 516px;
+}
+.contact_conetent h2{
+	padding-top: 0;
+	margin-top: 0;
+}
+.contact_form{
+	float: right;
+	width: 430px;
+	padding-top: 5px;
+}
+/* contact conetent end */
+
+/* form setting start */
+.ninja-forms-required-items{
+	display: none;
+}
+#ninja_forms_form_1_response_msg{
+ 	color: #8CC63F;
+}
+.ninja-forms-error-msg{
+	display: none;
+}
+input,
+textarea{
+	outline: none;
+	padding: 5px;
+}
+textarea{
+	resize: none;
+}
+.send{
+	width: 430px;
+	padding: 10px 0;
+	background: #00A4E3;
+	border: none;
+	color: #fff;
+}
+/* form setting end */
